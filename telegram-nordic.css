@@ -1,0 +1,93 @@
+/* colors */
+:root {
+    --text: #eceff4;
+    --text-darker: #e5e9f0;
+    --text-darker-darker: #a6afbe;
+    --text-darker-darker-darker: #5a6271;
+
+    --background-darker-darker: #3b4252;
+    --background-darker: #434c5e;
+    --background-darker-darker-darker: #2e3440;
+    --background: #4c566a;
+}
+
+/* Top */
+.TabList,
+.left-header {
+    background: var(--background-darker-darker);
+}
+
+.SearchInput {
+    background: var(--background-darker-darker-darker);
+    border: 0;
+}
+
+/* chats */
+.chat-list {
+    background: var(--background);
+}
+
+.status,
+.info {
+    background: var(--background);
+}
+
+.fullName {
+    color: var(--text);
+}
+
+.ListItem .ListItem-button,
+.MiddleHeader {
+    background: var(--background);
+}
+
+.last-message.shared-canvas-container span:nth-of-type(3),
+.LastMessageMeta span:nth-of-type(1),
+.user-status,
+.MessageMeta span:nth-of-type(1) {
+    color: var(--text-darker-darker);
+}
+
+.messages-layout {
+    background: var(--background-darker);
+}
+
+/* other person */
+.message-content.peer-color-6.text.has-shadow.has-solid-background.has-appendix.has-footer,
+.message-content.peer-color-5.text.has-shadow.has-solid-background.has-appendix.has-footer,
+.message-content.peer-color-3.text.has-shadow.has-solid-background.has-appendix.has-footer,
+.message-content.peer-color-0.text.has-shadow.has-solid-background.has-appendix.has-footer,
+.message-content.peer-color-0.text.has-shadow.has-solid-background.has-footer,
+.message-content.peer-color-5.text.has-shadow.has-solid-background.has-footer,
+.EmbeddedMessage.peer-color-count-1,
+.message-content.peer-color-3.text.has-shadow.has-solid-background.has-footer,
+.sticky-date.interactive span:nth-of-type(1) {
+    background: var(--background-darker-darker-darker);
+    color: var(--text)
+}
+
+/* you */
+.message-content.peer-color-count-1.text.has-shadow.has-solid-background.has-appendix.has-footer,
+.message-content.peer-color-count-1.text.has-shadow.has-solid-background.has-footer,
+.message-content.peer-color-count-1.no-text.document.has-shadow.has-solid-background.no-footer,
+.WebPage,
+.EmbeddedMessage.peer-color-6,
+.message-content.peer-color-count-1.no-text.document.has-shadow.has-solid-background.has-appendix.no-footer {
+    background: var(--text-darker-darker-darker);
+    color: var(--text)
+}
+
+/* message box */
+.Button.cxwA6gDO.default.secondary.round,
+.composer-wrapper,
+.Button.record.main-button.default.secondary.round.click-allowed,
+.HeaderPinnedMessageWrapper.tE8PJzpv.lrBhOgvf.opacity-transition.fast.shown.open,
+.Transition.shared-media-transition,
+.RightHeader, .TabList.no-scrollbar {
+    background: var(--background-darker-darker-darker);
+    color: var(--text-darker-darker);
+}
+
+svg {
+    display: None;
+}
